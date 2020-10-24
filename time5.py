@@ -12,11 +12,9 @@ import test5 as re
 
 # ReadExceal('class1.xlsx', 'class2.xlsx')
 
-
 # df = pd.read_excel('class1.xlsx')
 # df2 = pd.read_excel('class2.xlsx')
 # df = df.append(df2, ignore_index=True)
-
 
 # print(df)
 
