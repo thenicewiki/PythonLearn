@@ -1,0 +1,13 @@
+    # 替换brew.git:
+    cd "$(brew --repo)"
+    git remote set-url origin https://mirrors.cloud.tencent.com/homebrew/brew.git
+
+    https://mirrors.cloud.tencent.com/homebrew/
+    # 替换homebrew-core.git:
+    cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+    git remote set-url origin https://mirrors.cloud.tencent.com/homebrew/homebrew-core.git
+    # 应用生效
+    brew update
+    # 替换homebrew-bottles:
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.cloud.tencent.com/homebrew-bottles/' >> ~/.zshrc
+    source ~/.zshrc

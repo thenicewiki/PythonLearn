@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "uri": "vscode-remote://127.0.0.1:8000/root/Workspace"
+        }
+    ],
+    "settings": {
+        "workbench.colorTheme": "Dracula Soft",
+        "terminal.integrated.fontSize": 16,
+        "debug.console.fontSize": 18,
+        "editor.fontSize": 18,
+        "terminal.integrated.shell.osx": "/bin/bash"
+    }
+}

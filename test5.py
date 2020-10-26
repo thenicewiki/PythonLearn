@@ -5,4 +5,5 @@ def read_excel(*file):
     for i in file:
         df = df.append(pd.read_excel(i), ignore_index=True)
     df.to_excel('my.xlsx')
+    print(df)
     return df
