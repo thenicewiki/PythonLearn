@@ -6,9 +6,13 @@
     ],
     "settings": {
         "workbench.colorTheme": "Dracula Soft",
-        "terminal.integrated.fontSize": 16,
+        "terminal.integrated.fontSize": 18,
         "debug.console.fontSize": 18,
         "editor.fontSize": 18,
-        "terminal.integrated.shell.osx": "/bin/bash"
+        "terminal.integrated.shell.osx": "/bin/bash",
+        "terminal.integrated.allowMnemonics": true,
+        "workbench.editorAssociations": [
+        
+        ]
     }
 }
