@@ -1,0 +1,1 @@
+docker run -p 12000:80 -v /blog/public:/www --name docker-blog ubuntu/nginx:v1 nginx   
